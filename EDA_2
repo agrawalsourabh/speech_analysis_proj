@@ -1,0 +1,12 @@
+import nltk
+
+# nltk book download
+nltk.download()
+
+from nltk.book import *
+
+print(text1.concordance("monstrous"))
+
+print(text1.similar("monstrous"))
+
+print(text2.common_contexts(["monstrous", "very"]))
